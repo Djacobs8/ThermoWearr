@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B67156AC1E94E819002BF189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156AB1E94E819002BF189 /* AppDelegate.swift */; };
-		B67156AE1E94E819002BF189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156AD1E94E819002BF189 /* ViewController.swift */; };
+		B67156AE1E94E819002BF189 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156AD1E94E819002BF189 /* SignInViewController.swift */; };
 		B67156B11E94E819002BF189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67156AF1E94E819002BF189 /* Main.storyboard */; };
 		B67156B41E94E819002BF189 /* ThermoWear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67156B21E94E819002BF189 /* ThermoWear.xcdatamodeld */; };
 		B67156B61E94E819002BF189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67156B51E94E819002BF189 /* Assets.xcassets */; };
 		B67156B91E94E819002BF189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67156B71E94E819002BF189 /* LaunchScreen.storyboard */; };
+		B67156C11E94E98A002BF189 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B67156C01E94E98A002BF189 /* GoogleService-Info.plist */; };
+		F712A2F6DFFBB6E10C7B166A /* Pods_ThermoWear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5D25DE74DC7738CD3C8 /* Pods_ThermoWear.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4829E35B9A64CB3A6770C27F /* Pods-ThermoWear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThermoWear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThermoWear/Pods-ThermoWear.debug.xcconfig"; sourceTree = "<group>"; };
+		8297A5D25DE74DC7738CD3C8 /* Pods_ThermoWear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThermoWear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67156A81E94E819002BF189 /* ThermoWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermoWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67156AB1E94E819002BF189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B67156AD1E94E819002BF189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B67156AD1E94E819002BF189 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B67156B01E94E819002BF189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B67156B31E94E819002BF189 /* ThermoWear.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThermoWear.xcdatamodel; sourceTree = "<group>"; };
 		B67156B51E94E819002BF189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67156B81E94E819002BF189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B67156BA1E94E819002BF189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67156C01E94E98A002BF189 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2F031CA2A4E30C6384DA29E /* Pods-ThermoWear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThermoWear.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThermoWear/Pods-ThermoWear.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F712A2F6DFFBB6E10C7B166A /* Pods_ThermoWear.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FF1E3400894C475C789148B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8297A5D25DE74DC7738CD3C8 /* Pods_ThermoWear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E0B259D11E2C490DBB90B1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4829E35B9A64CB3A6770C27F /* Pods-ThermoWear.debug.xcconfig */,
+				C2F031CA2A4E30C6384DA29E /* Pods-ThermoWear.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B671569F1E94E819002BF189 = {
 			isa = PBXGroup;
 			children = (
 				B67156AA1E94E819002BF189 /* ThermoWear */,
 				B67156A91E94E819002BF189 /* Products */,
+				7E0B259D11E2C490DBB90B1F /* Pods */,
+				6FF1E3400894C475C789148B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				B67156AB1E94E819002BF189 /* AppDelegate.swift */,
-				B67156AD1E94E819002BF189 /* ViewController.swift */,
+				B67156AD1E94E819002BF189 /* SignInViewController.swift */,
 				B67156AF1E94E819002BF189 /* Main.storyboard */,
 				B67156B51E94E819002BF189 /* Assets.xcassets */,
 				B67156B71E94E819002BF189 /* LaunchScreen.storyboard */,
 				B67156BA1E94E819002BF189 /* Info.plist */,
 				B67156B21E94E819002BF189 /* ThermoWear.xcdatamodeld */,
+				B67156C01E94E98A002BF189 /* GoogleService-Info.plist */,
 			);
 			path = ThermoWear;
 			sourceTree = "<group>";
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67156BD1E94E819002BF189 /* Build configuration list for PBXNativeTarget "ThermoWear" */;
 			buildPhases = (
+				CD713B9D2650A83942CB66E6 /* [CP] Check Pods Manifest.lock */,
 				B67156A41E94E819002BF189 /* Sources */,
 				B67156A51E94E819002BF189 /* Frameworks */,
 				B67156A61E94E819002BF189 /* Resources */,
+				0165220B25FDA1BA785370C9 /* [CP] Embed Pods Frameworks */,
+				D5FFD1950C9E38DDA55F3913 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67156B91E94E819002BF189 /* LaunchScreen.storyboard in Resources */,
+				B67156C11E94E98A002BF189 /* GoogleService-Info.plist in Resources */,
 				B67156B61E94E819002BF189 /* Assets.xcassets in Resources */,
 				B67156B11E94E819002BF189 /* Main.storyboard in Resources */,
 			);
@@ -135,13 +166,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0165220B25FDA1BA785370C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThermoWear/Pods-ThermoWear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD713B9D2650A83942CB66E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FFD1950C9E38DDA55F3913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThermoWear/Pods-ThermoWear-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B67156A41E94E819002BF189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B67156B41E94E819002BF189 /* ThermoWear.xcdatamodeld in Sources */,
-				B67156AE1E94E819002BF189 /* ViewController.swift in Sources */,
+				B67156AE1E94E819002BF189 /* SignInViewController.swift in Sources */,
 				B67156AC1E94E819002BF189 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +344,13 @@
 		};
 		B67156BE1E94E819002BF189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4829E35B9A64CB3A6770C27F /* Pods-ThermoWear.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAP4SD28AS;
 				INFOPLIST_FILE = ThermoWear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWear";
+				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWearG13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,12 +358,13 @@
 		};
 		B67156BF1E94E819002BF189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F031CA2A4E30C6384DA29E /* Pods-ThermoWear.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAP4SD28AS;
 				INFOPLIST_FILE = ThermoWear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWear";
+				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWearG13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -308,6 +389,7 @@
 				B67156BF1E94E819002BF189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
