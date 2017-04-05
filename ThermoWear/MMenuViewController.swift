@@ -18,7 +18,7 @@ class MMenuViewController: UIViewController {
 
     @IBAction func logoutTapped(_ sender: Any) {
         
-        dismiss(animated: true, completion: nil)
+        // dismiss(animated: true, completion: nil) // posssibly make it always a sign out
         
     }
     
