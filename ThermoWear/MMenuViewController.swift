@@ -22,6 +22,9 @@ class MMenuViewController: UIViewController {
         
     }
     
+    @IBAction func mydeviceTapped(_ sender: Any) {
+        performSegue(withIdentifier: "deviceSegue", sender: nil)
+    }
     
 
 }
