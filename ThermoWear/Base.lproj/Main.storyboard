@@ -27,7 +27,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="dbjacobs8@gmail.com" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMz-fx-UQP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="dbjacobs88@gmail.com" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMz-fx-UQP">
                                 <rect key="frame" x="60" y="283" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="pb2-97-JW4"/>
@@ -74,10 +74,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="QUA-NM-L6t">
             <objects>
-                <viewController id="v2I-wR-krK" sceneMemberID="viewController">
+                <viewController id="v2I-wR-krK" customClass="MMenuViewController" customModule="ThermoWear" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YRf-yE-Ygi"/>
                         <viewControllerLayoutGuide type="bottom" id="iQ0-gI-kNg"/>
@@ -87,11 +87,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Yuc-9d-pt7"/>
+                    <navigationItem key="navigationItem" id="Yuc-9d-pt7">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Een-cR-PeC">
+                            <connections>
+                                <action selector="logoutTapped:" destination="v2I-wR-krK" id="OY4-Av-Zrv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V8I-SQ-gm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1905" y="35.91549295774648"/>
+            <point key="canvasLocation" x="1562" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qf0-mS-sGU">
@@ -109,7 +115,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OTR-3O-Dw4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907.5" y="35.91549295774648"/>
+            <point key="canvasLocation" x="799" y="36"/>
         </scene>
     </scenes>
 </document>
