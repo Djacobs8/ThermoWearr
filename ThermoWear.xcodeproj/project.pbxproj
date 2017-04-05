@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B67156AC1E94E819002BF189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156AB1E94E819002BF189 /* AppDelegate.swift */; };
+		B67156AE1E94E819002BF189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67156AD1E94E819002BF189 /* ViewController.swift */; };
+		B67156B11E94E819002BF189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67156AF1E94E819002BF189 /* Main.storyboard */; };
+		B67156B41E94E819002BF189 /* ThermoWear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67156B21E94E819002BF189 /* ThermoWear.xcdatamodeld */; };
+		B67156B61E94E819002BF189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67156B51E94E819002BF189 /* Assets.xcassets */; };
+		B67156B91E94E819002BF189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67156B71E94E819002BF189 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B67156A81E94E819002BF189 /* ThermoWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermoWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67156AB1E94E819002BF189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B67156AD1E94E819002BF189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B67156B01E94E819002BF189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67156B31E94E819002BF189 /* ThermoWear.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThermoWear.xcdatamodel; sourceTree = "<group>"; };
+		B67156B51E94E819002BF189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67156B81E94E819002BF189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67156BA1E94E819002BF189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67156A51E94E819002BF189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B671569F1E94E819002BF189 = {
+			isa = PBXGroup;
+			children = (
+				B67156AA1E94E819002BF189 /* ThermoWear */,
+				B67156A91E94E819002BF189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B67156A91E94E819002BF189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67156A81E94E819002BF189 /* ThermoWear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67156AA1E94E819002BF189 /* ThermoWear */ = {
+			isa = PBXGroup;
+			children = (
+				B67156AB1E94E819002BF189 /* AppDelegate.swift */,
+				B67156AD1E94E819002BF189 /* ViewController.swift */,
+				B67156AF1E94E819002BF189 /* Main.storyboard */,
+				B67156B51E94E819002BF189 /* Assets.xcassets */,
+				B67156B71E94E819002BF189 /* LaunchScreen.storyboard */,
+				B67156BA1E94E819002BF189 /* Info.plist */,
+				B67156B21E94E819002BF189 /* ThermoWear.xcdatamodeld */,
+			);
+			path = ThermoWear;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67156A71E94E819002BF189 /* ThermoWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67156BD1E94E819002BF189 /* Build configuration list for PBXNativeTarget "ThermoWear" */;
+			buildPhases = (
+				B67156A41E94E819002BF189 /* Sources */,
+				B67156A51E94E819002BF189 /* Frameworks */,
+				B67156A61E94E819002BF189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThermoWear;
+			productName = ThermoWear;
+			productReference = B67156A81E94E819002BF189 /* ThermoWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67156A01E94E819002BF189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Derek Jacobs";
+				TargetAttributes = {
+					B67156A71E94E819002BF189 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FAP4SD28AS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B67156A31E94E819002BF189 /* Build configuration list for PBXProject "ThermoWear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B671569F1E94E819002BF189;
+			productRefGroup = B67156A91E94E819002BF189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67156A71E94E819002BF189 /* ThermoWear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67156A61E94E819002BF189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67156B91E94E819002BF189 /* LaunchScreen.storyboard in Resources */,
+				B67156B61E94E819002BF189 /* Assets.xcassets in Resources */,
+				B67156B11E94E819002BF189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67156A41E94E819002BF189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67156B41E94E819002BF189 /* ThermoWear.xcdatamodeld in Sources */,
+				B67156AE1E94E819002BF189 /* ViewController.swift in Sources */,
+				B67156AC1E94E819002BF189 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B67156AF1E94E819002BF189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67156B01E94E819002BF189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67156B71E94E819002BF189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67156B81E94E819002BF189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B67156BB1E94E819002BF189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67156BC1E94E819002BF189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67156BE1E94E819002BF189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FAP4SD28AS;
+				INFOPLIST_FILE = ThermoWear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B67156BF1E94E819002BF189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FAP4SD28AS;
+				INFOPLIST_FILE = ThermoWear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ES-1050.ThermoWear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67156A31E94E819002BF189 /* Build configuration list for PBXProject "ThermoWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67156BB1E94E819002BF189 /* Debug */,
+				B67156BC1E94E819002BF189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67156BD1E94E819002BF189 /* Build configuration list for PBXNativeTarget "ThermoWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67156BE1E94E819002BF189 /* Debug */,
+				B67156BF1E94E819002BF189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B67156B21E94E819002BF189 /* ThermoWear.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B67156B31E94E819002BF189 /* ThermoWear.xcdatamodel */,
+			);
+			currentVersion = B67156B31E94E819002BF189 /* ThermoWear.xcdatamodel */;
+			path = ThermoWear.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B67156A01E94E819002BF189 /* Project object */;
+}
