@@ -33,6 +33,12 @@ class SignInViewController: UIViewController {
                     
                         if error != nil {
                             print("We have an error")
+                            
+                            let alertController = UIAlertController(title: "ERROR:", message: "Email given is already associated with another password, please try again", preferredStyle: UIAlertControllerStyle.alert)
+                            
+                            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
+                            
+                            self.present(alertController, animated: true, completion: nil)
                         } else {
                             print("We created a user")
                             self.performSegue(withIdentifier: "signinSegue", sender: nil)

@@ -120,6 +120,9 @@
                                 <state key="normal" title="Add New Device" backgroundImage="pastel button.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VPr-dF-z9q" kind="presentation" id="e4X-w2-XOZ"/>
+                                </connections>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIN-e6-s6g">
                                 <rect key="frame" x="15" y="380" width="290" height="120"/>
@@ -324,6 +327,31 @@
             </objects>
             <point key="canvasLocation" x="2033" y="867"/>
         </scene>
+        <!--Add New View Controller-->
+        <scene sceneID="bhC-aL-ptQ">
+            <objects>
+                <viewController id="n0s-DT-Dsj" customClass="AddNewViewController" customModule="ThermoWear" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oD9-hf-wbj"/>
+                        <viewControllerLayoutGuide type="bottom" id="umD-wp-MtT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1al-Sf-R4O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QX3-tj-jh8">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ubk-kH-aba">
+                            <connections>
+                                <action selector="cancelTapped:" destination="n0s-DT-Dsj" id="tVb-yh-Tv2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xi8-1z-7JH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3116.25" y="-640.14084507042253"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vdj-oz-1zZ">
             <objects>
@@ -341,6 +369,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s11-cy-gaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2584" y="36"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ElC-Le-bjw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VPr-dF-z9q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fSs-rM-4Pu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n0s-DT-Dsj" kind="relationship" relationship="rootViewController" id="GK2-RM-0Gs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhl-SU-tVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2118.75" y="-640.14084507042253"/>
         </scene>
     </scenes>
     <resources>
