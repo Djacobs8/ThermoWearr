@@ -21,7 +21,7 @@
 		B6E2D3131E9558F300162A9C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2D3121E9558F300162A9C /* HistoryViewController.swift */; };
 		B6E2D3171E95747300162A9C /* MyDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2D3161E95747300162A9C /* MyDeviceViewController.swift */; };
 		B6E2D3191E95841900162A9C /* ExamineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2D3181E95841900162A9C /* ExamineViewController.swift */; };
-		B6E2D33B1E9609DA00162A9C /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2D33A1E9609DA00162A9C /* AddNewViewController.swift */; };
+		B6E2D33F1E9620D600162A9C /* NewDevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2D33E1E9620D600162A9C /* NewDevViewController.swift */; };
 		F712A2F6DFFBB6E10C7B166A /* Pods_ThermoWear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5D25DE74DC7738CD3C8 /* Pods_ThermoWear.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,7 @@
 		B6E2D3121E9558F300162A9C /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		B6E2D3161E95747300162A9C /* MyDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDeviceViewController.swift; sourceTree = "<group>"; };
 		B6E2D3181E95841900162A9C /* ExamineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamineViewController.swift; sourceTree = "<group>"; };
-		B6E2D33A1E9609DA00162A9C /* AddNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		B6E2D33E1E9620D600162A9C /* NewDevViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDevViewController.swift; sourceTree = "<group>"; };
 		C2F031CA2A4E30C6384DA29E /* Pods-ThermoWear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThermoWear.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThermoWear/Pods-ThermoWear.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 				B67156C51E9507D3002BF189 /* MMenuViewController.swift */,
 				B6E2D3121E9558F300162A9C /* HistoryViewController.swift */,
 				B67156AF1E94E819002BF189 /* Main.storyboard */,
-				B6E2D33A1E9609DA00162A9C /* AddNewViewController.swift */,
+				B6E2D33E1E9620D600162A9C /* NewDevViewController.swift */,
 				B6E2D3181E95841900162A9C /* ExamineViewController.swift */,
 				B6E2D3161E95747300162A9C /* MyDeviceViewController.swift */,
 				B67156B51E94E819002BF189 /* Assets.xcassets */,
@@ -258,9 +258,9 @@
 				B67156C61E9507D3002BF189 /* MMenuViewController.swift in Sources */,
 				B67156AE1E94E819002BF189 /* SignInViewController.swift in Sources */,
 				B6E2D3131E9558F300162A9C /* HistoryViewController.swift in Sources */,
+				B6E2D33F1E9620D600162A9C /* NewDevViewController.swift in Sources */,
 				B6E2D3171E95747300162A9C /* MyDeviceViewController.swift in Sources */,
 				B67156AC1E94E819002BF189 /* AppDelegate.swift in Sources */,
-				B6E2D33B1E9609DA00162A9C /* AddNewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
