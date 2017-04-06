@@ -16,6 +16,8 @@ class AddNewViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func searchTapped(_ sender: Any) {
+    }
     
     @IBAction func cancelTapped(_ sender: Any) {
         

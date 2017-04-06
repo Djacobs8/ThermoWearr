@@ -13,6 +13,8 @@ class MyDeviceViewController: UIViewController {
     
     @IBOutlet weak var tempTextField: UITextField!
     
+    @IBOutlet weak var submitButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,8 @@ class MyDeviceViewController: UIViewController {
     
     
     @IBAction func submitTapped(_ sender: Any) {
+        
+        submitButton.isEnabled = false// no repeated or false entries during upload
         
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext // constant to be used
         let time = Date()-(60*60*4) //constant to then be used as the date/ time, minus is adjustment for time zone

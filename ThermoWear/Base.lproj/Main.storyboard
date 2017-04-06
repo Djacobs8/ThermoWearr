@@ -45,6 +45,7 @@
                                     <constraint firstAttribute="height" constant="45" id="2NV-Ki-xqP"/>
                                     <constraint firstAttribute="width" constant="80" id="aws-7W-sjc"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Sign in" backgroundImage="pastel button.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -242,6 +243,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="submitButton" destination="JDG-SQ-Q11" id="G48-2a-CGt"/>
                         <outlet property="tempTextField" destination="DB8-rR-T9P" id="HQL-7W-DFg"/>
                     </connections>
                 </viewController>
@@ -338,7 +340,27 @@
                     <view key="view" contentMode="scaleToFill" id="1al-Sf-R4O">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d04-VS-Sma">
+                                <rect key="frame" x="60" y="139" width="200" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="WIi-uF-bMp"/>
+                                    <constraint firstAttribute="width" constant="200" id="vnn-DR-Eoz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Search for new device" backgroundImage="pastel button.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchTapped:" destination="n0s-DT-Dsj" eventType="touchUpInside" id="H4W-Gt-krk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96987152099609375" green="0.80942869186401367" blue="0.51757586002349854" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="d04-VS-Sma" firstAttribute="centerX" secondItem="1al-Sf-R4O" secondAttribute="centerX" id="9as-gI-Atm"/>
+                            <constraint firstItem="d04-VS-Sma" firstAttribute="top" secondItem="oD9-hf-wbj" secondAttribute="bottom" constant="75" id="sLt-ZW-U5C"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QX3-tj-jh8">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ubk-kH-aba">
@@ -395,6 +417,6 @@
         <image name="pastel button.png" width="298" height="282"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S0a-kD-TGu"/>
+        <segue reference="VP1-ox-7lm"/>
     </inferredMetricsTieBreakers>
 </document>
