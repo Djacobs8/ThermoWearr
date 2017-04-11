@@ -72,7 +72,7 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
                 readings = try context.fetch(Reading.fetchRequest()) //refetech data
                 historyTableView.reloadData() // reload after
             } catch {
-                print("otherwise we're screwed")
+                print("otherwise we messed up")
             }
             
         }
